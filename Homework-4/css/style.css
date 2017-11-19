@@ -1,0 +1,74 @@
+body {
+  margin: 0;
+  height: 100%;
+  background: url(../img/sea.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+}
+
+.wrapper {
+  width: 800px;
+  height: 100%;
+  margin: 20px auto;
+  padding: 60px 45px 60px 45px;
+  background-color: #fff;
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 15px;
+  font-weight: 200;
+}
+h2 {
+  text-transform: uppercase;
+  color: #2f4f4f;
+}
+h3 {
+  padding-top: 15px;
+  color: #2f4f3f;
+}
+img {
+  width: 300px;
+  float: left;
+  margin: 15px 15px 5px 0px;
+}
+.block1 {
+  display: inline-block;
+  width: 550px;
+}
+.block2 {
+  display: inline-block;
+  width: 200px;
+}
+.list1 li::before {
+  content: "";
+  width: 28px;
+  height: 28px;
+  left: 830px;
+  position: absolute;
+  background-color: #2f4f3f;
+  border-radius: 28px;
+}
+div.bottom {
+  border-bottom: 1px solid #d3d3d3;
+  padding-top: 30px;
+}
+.block3 {
+  width: 530px;
+  display: inline-block;
+  padding-top: 30px;
+}
+.list2 ul {
+  display: inline-block;
+  height: 100px;
+  width: 50px;
+}
+.block4 {
+  display: inline-block;
+  }
+.frame h3 {
+  content: attr(\2033);
+  background: url(../img/frame.png);
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: center;
+}
