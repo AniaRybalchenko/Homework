@@ -121,7 +121,7 @@ div.bottom {
   text-align: center;
 }
 
-/*.frame::after
+.frame::after
 .frame::before {
   content: "";
   display: block;
@@ -143,4 +143,4 @@ div.bottom {
   border-right: 16px solid transparent;
   bottom: -20px;
   left: 86px;
-}*/
+}
