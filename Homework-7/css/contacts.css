@@ -1,0 +1,257 @@
+body {
+  margin: 0;
+  height: auto;
+  background: url(../img/sea.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+}
+
+.gut {
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 15px;
+  font-weight: 200;
+}
+
+.menu > ul {
+  width: 800px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  list-style: none;
+  font-family: 'Pathway Gothic One', sans-serif;
+  font-size: 26px;
+  padding: 5px;
+  margin: 60px auto;
+}
+
+.submenu > ul {
+  list-style: none;
+}
+
+.wc {
+  text-decoration: none;
+  color: #fff;
+}
+
+.bc {
+  position: relative;
+  color: #000;
+  font-size: 20px;
+  text-decoration: none;
+  right: 20px;
+}
+
+li>a:hover, .menu_about>a:hover {
+  color: #3385ff;
+}
+
+.circle {
+  display: inline-block;
+  position: relative;
+  width: 130px;
+  height: 130px;
+  background: #fff;
+  border-radius: 130px;
+}
+
+.journey {
+  position: absolute;
+  left: 30px;
+  bottom: 0px;
+  font-size: 50px;
+  text-align: center;
+  font-family: 'Dorsa', sans-serif;
+}
+
+.menu_about:hover > .submenu {
+  display: inline-block;
+  margin-top: 20px;
+  border-radius: 5%;
+  left: 380px;
+  background: #fff;
+  width: 75px;
+  height: 90px;
+}
+
+.menu_about:hover > .triangle-top {
+  display: inline-block;
+  width: 7px;
+  height: 10px;
+  left: 405px;
+  margin-bottom: 3px;
+  border-style: solid;
+  border-width: 0 10px 15px 10px;
+  border-color: transparent transparent #fff transparent;
+}
+
+.triangle-top {
+  display: none;
+  position: absolute;
+}
+
+.menu {
+  position: relative;
+}
+
+.submenu {
+  display: none;
+  position: absolute;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 70px 45px 100px 45px;
+  width: 800px;
+  background-color: #fff;
+  margin: 0 0 0 230px;
+}
+
+h2 {
+  margin-bottom: 40px;
+}
+
+iframe {
+  display: flex;
+  width: 350px;
+  height: 350px;
+}
+
+.contacts {
+  display: flex;
+}
+
+.adress {
+  padding-top: 0;
+  margin: 0 20px;
+  font-size: 16px;
+  justify-content:space-between;
+}
+
+caption {
+  font-size: 18px;
+  font-weight: 600;
+  text-align: left;
+}
+
+table caption:nth-child(2) {
+  margin-bottom: 15px;
+}
+
+.table2 {
+  margin-top: 20px;
+}
+
+aside {
+  display: flex;
+  flex-direction: column;
+  width: 150px;
+  margin: 0;
+}
+
+form input, form textarea {
+  width: 150px;
+  margin: 0 0 10px 0;
+  padding: 5px;
+  border-radius: 4px;
+}
+
+form textarea {
+  height: 180px;
+  resize: none;
+  border-radius: 4px;
+}
+
+.send, form button {
+  margin-left: 5px;
+  margin-top: 10px;
+  width: auto;
+  padding: 6px 16px 6px 16px;
+  border-radius: 4px;
+  border: 1px solid #C0C0C0;
+  background: #fff;
+}
+
+a {
+  color: #B22222;
+}
+
+.to-top::after {
+  content: "\25e0";
+  text-align: center;
+  position: fixed;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #5DADE2;
+  bottom: 250px;
+  left: 1077px;
+}
+
+footer {
+  width: 890px;
+  height: 100px;
+  margin: 0 0 0 230px;
+  padding: 0 0 15px 0;
+  font-family: 'Barlow Condensed', sans-serif;
+}
+
+.ad_info {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #30455b;
+  color: white;
+}
+
+.ad_info a {
+  color: white;
+  font-size: 18px;
+  padding: 0;
+  font-weight: normal;
+  text-decoration: none;
+}
+
+.ad_info a:hover {
+  color: #5DADE2;
+}
+
+.sprites {
+  margin: 5px 0 0 600px;
+  padding: 10px 30px 10px 0;
+}
+
+.icons {
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+}
+
+.linkedin {
+  background: url('../img/png/icons.png') -10px -62px;
+}
+
+.facebook {
+  background: url('../img/png/icons.png') -10px -10px;
+}
+
+.google_plus {
+  background: url('../img/png/icons.png') -62px -10px;
+}
+
+.twitter {
+  background: url('../img/png/icons.png') -62px -62px;
+}
+
+.designed {
+  color: #fff;
+  margin: 0 0 0 500px;
+  font-family: 'Barlow Condensed', sans-serif;
+}

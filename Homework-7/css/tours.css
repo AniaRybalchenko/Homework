@@ -1,0 +1,137 @@
+body {
+  margin: 0;
+  height: auto;
+  background: url(../img/sea.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+}
+
+.gut {
+  margin: 0 auto;
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 15px;
+  font-weight: 200;
+}
+
+.menu > ul {
+  width: 800px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  list-style: none;
+  font-family: 'Pathway Gothic One', sans-serif;
+  font-size: 26px;
+  padding: 5px;
+  margin: 60px auto;
+}
+
+.submenu > ul {
+  list-style: none;
+}
+
+.wc {
+  text-decoration: none;
+  color: #fff;
+}
+
+.bc {
+  position: relative;
+  color: #000;
+  font-size: 20px;
+  text-decoration: none;
+  right: 20px;
+}
+
+li>a:hover, .menu_about>a:hover {
+  color: #3385ff;
+}
+
+.circle {
+  display: inline-block;
+  position: relative;
+  width: 130px;
+  height: 130px;
+  background: #fff;
+  border-radius: 130px;
+}
+
+.journey {
+  position: absolute;
+  left: 30px;
+  bottom: 0px;
+  font-size: 50px;
+  text-align: center;
+  font-family: 'Dorsa', sans-serif;
+}
+
+.menu_about:hover > .submenu {
+  display: inline-block;
+  margin-top: 20px;
+  border-radius: 5%;
+  left: 380px;
+  background: #fff;
+  width: 75px;
+  height: 90px;
+}
+
+.menu_about:hover > .triangle-top {
+  display: inline-block;
+  width: 7px;
+  height: 10px;
+  left: 405px;
+  margin-bottom: 3px;
+  border-style: solid;
+  border-width: 0 10px 15px 10px;
+  border-color: transparent transparent #fff transparent;
+}
+
+.triangle-top {
+  display: none;
+  position: absolute;
+}
+
+.menu {
+  position: relative;
+}
+
+.submenu {
+  display: none;
+  position: absolute;
+}
+
+main {
+  padding: 70px 45px 100px 45px;
+  width: 800px;
+  background-color: #fff;
+  margin: 0 0 0 230px;
+}
+
+article {
+  display: flex;
+  width: 500px;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+img {
+  width: 200px;
+  height: 150px;
+}
+
+.content h4 {
+  margin-top: 0;
+}
