@@ -10,15 +10,14 @@ body {
 .gut {
   width: 100%;
   margin: 0 auto;
-  position: relative;
   font-family: 'Barlow Condensed', sans-serif;
   font-size: 15px;
   font-weight: 200;
 }
 
 .menu > ul {
-  width: 800px;
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: space-around;
   list-style: none;
@@ -117,7 +116,7 @@ main {
 }
 
 .gallery {
-  display: flex;
+  /* display: flex; */
   flex-wrap: wrap;
   flex-direction: row;
   justify-content: center;
@@ -141,7 +140,7 @@ img:hover {
   opacity: 0.5;
 }
 
-.to-top::after {
+/* .to-top::after {
   content: "\25e0";
   text-align: center;
   position: fixed;
@@ -150,20 +149,21 @@ img:hover {
   border-radius: 50%;
   background-color: #5DADE2;
   bottom: 230px;
-  left: 1078px;
-}
+  /* left: 1078px;
+} */
 
 footer {
-  width: 890px;
-  height: 100px;
+  /* width: 890px; */
+  /* height: 100px; */
   margin: 0 auto;
   padding: 0 0 15px 0;
 }
 
 .ad_info {
   display: flex;
+  flex-wrap: wrap;
   flex-direction: row;
-  align-items: center;
+  /* align-items: center; */
   justify-content: space-around;
   background-color: #30455b;
   color: white;
@@ -182,7 +182,7 @@ footer {
 }
 
 .block2 {
-  width: 890px;
+  /* width: 890px; */
   height: auto;
   margin: 0 auto;
   text-align: center;
